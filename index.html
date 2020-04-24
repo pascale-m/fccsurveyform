@@ -2,4 +2,97 @@
 <head>
 </head>
 <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+    
+    <header>
+        <h1 id="title">quarantine homie check in</h1>
+        <p id="description">how r u doing? please check in w me</p>
+    </header>
+
+    <form id="survey-form">
+        <label id="name-label" for="name">which homie is visiting the page?
+        </label>
+        <input id="name" type="text" placeholder="sweet fren" required>
+        
+        
+        <label id="email-label" for="email"> give me your email so i can reply:
+        <input id="email" type="email" placeholder="homiesrus@gmail.com" required>
+        </label>
+        
+        <p>ok let's start</p>
+        
+        <label id="number-label" for="number">About how many days have you been socially distancing?
+        <input id="number" type="number" min=0 max=255 placeholder="69">
+        </label>
+        
+        <select id="dropdown">
+            <option value="">Please choose one</option>
+            <option></option>
+            <option></option>
+        </select>
+        
+        
+        <label id="radios-label" for="radios">
+        Fuck</label>
+        <label for="2">
+        <input type="radio" name="radios" id="-2" value="-2">
+            Strongly Disagree
+        </label>
+        <label for="-1">
+        <input type="radio" name="radios" id="-1" value="-1">
+            Disagree
+        </label>
+        <label for="0">
+        <input type="radio" name="radios" id="0" value="0">
+            Neutral
+        </label>
+        <label for="1">
+        <input type="radio" name="radios" id="1" value="1">
+            Agree
+        </label>
+        <label for="2">
+        <input type="radio" name="radios" id="2" value="2">
+            Strongly Agree
+        </label>
+        
+        <label id="activities-label" for="activites">
+        What have you done so far during quarantine?
+        </label>
+        <label id="bread-label" for="bread">
+        <input type="checkbox" name="activites" id="bread" value="bread">baked sourdough bread... 4 times
+        </label>
+        <label id="masturbate-label" for="masturbate">
+        <input type="checkbox" name="activites" id="masturbate" value="masturbate">been masturbating more than three times a day
+        </label>
+        <label id="course-label" for="anime">
+        <input type="checkbox" name="activites" id="anime" value="anime">watched an entire anime series
+        </label>
+        <label id="course-label" for="course">
+        <input type="checkbox" name="activites" id="course" value="course">started an online course for a few days then forgot about it
+        </label>
+        <label id="bike-label" for="bike">
+        <input type="checkbox" name="activites" id="bike" value="bike">dusted off your bike and rode it
+        </label>
+        
+        <label for="reassurance">
+        Delete the text and repeat after me: everything's good we'll be ok. :):</label>
+        
+        <textarea id="reassurance">
+*smokes cigarette*
+*paces around apartment*
+        </textarea>
+        
+        <button type="submit" id="submit">submit</button>
+        
+    </form>
 </body>
