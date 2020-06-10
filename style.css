@@ -1,0 +1,48 @@
+html {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: aqua;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#description {
+    text-align: center;
+    margin: 1vh
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+input, select {
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+#start {
+    font-size: 1.5em;
+    text-align: center;
+}
